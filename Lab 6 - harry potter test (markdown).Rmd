@@ -1,0 +1,14 @@
+---
+title: "Lab 6 - harry potter test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message = FALSE}
+library(tidyverse)
+hp_data <- read_csv("harry_potter_aggression_full.csv")
+```
+
